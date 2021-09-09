@@ -1,0 +1,200 @@
+/*основной цвет текста #212121*/
+/*вторичный цвет текста #757575*/
+/* вторичный цвет #F5F4FA */
+/* основной  цвет  #FFFFFF */
+/* цвет акцента #2196F3
+ /* цвет футера #2F303A */
+/* цвет текста сылок в футере rgba(255, 255, 255, 0.6); */
+/* цвет лого #000000 */
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --primary-color: #ffffff;
+  --accent-color: #2196f3;
+  --fotters-color: #2f303a;
+  --section-color: #f5f4fa;
+  --address-colar: rgba(255, 255, 255, 0.6);
+  --logo-colar: #000000;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* Списки */
+.list {
+  list-style: none;
+}
+
+.list-item {
+  letter-spacing: 0.02em;
+}
+
+.list-item-address {
+  letter-spacing: 0.02em;
+}
+
+.list-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  list-style: none;
+}
+
+/* Лого */
+
+.link-logo {
+  color: var(--logo-colar);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.content {
+  color: var(--accent-color);
+}
+.link-logo-footer {
+  color: var(--primary-color);
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+}
+
+/* Блоки */
+.team {
+  background-color: var(--section-color);
+}
+
+.hero {
+  background-color: var(--fotters-color);
+  letter-spacing: 0.06em;
+}
+/* заголовки */
+
+.title-hero {
+  color: var(--primary-color);
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title-qualities {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-transform: uppercase;
+}
+
+.title-team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.title-project {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.title-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.title-service {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/* Кнопки */
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.services-button {
+  background-color: var(--section-color);
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.services-button:hover,
+.services-button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+/* Текст */
+
+.text-qualities {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.text-address {
+  color: var(--primary-color);
+}
+.text-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.text-service {
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* Ссылки */
+
+.link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.link-address {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.link-address-footer {
+  color: var(--address-colar);
+}
+
+/* Сcылки при наведении */
+.link-address-footer:hover,
+.link-address-footer:focus,
+.link:hover,
+.link:focus,
+.link-address:hover,
+.link-address:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: var(--fotters-color);
+}
