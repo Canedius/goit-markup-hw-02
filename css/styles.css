@@ -41,6 +41,7 @@ body {
 
 .list-link-services {
   text-decoration: none;
+  font-family: Roboto;
 }
 
 /* Лого */
@@ -144,6 +145,7 @@ body {
   line-height: 1.62;
   text-align: center;
   list-style: none;
+  font-family: inherit;
 }
 
 .services-button:hover,
